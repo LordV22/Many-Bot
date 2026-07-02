@@ -1,0 +1,131 @@
+# ==========================================
+# 🤖 Many Bot
+# Git Ignore
+# ==========================================
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual Environment
+.venv/
+venv/
+env/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+*.log
+
+# Environment
+.env
+.env.*
+!.env.example
+
+# Database
+*.db
+*.sqlite3
+
+# PostgreSQL Dumps
+*.sql
+
+# Redis
+dump.rdb
+
+# Pytest
+.pytest_cache/
+.coverage
+htmlcov/
+
+# MyPy
+.mypy_cache/
+
+# Ruff
+.ruff_cache/
+
+# Build
+dist/
+build/
+*.egg-info/
+
+# Docker
+docker/data/
+docker/postgres/
+docker/redis/
+
+# Temporary
+tmp/
+temp/
+.cache/
+
+# Session Files
+sessions/
+auth/
+qr/
+
+# Uploads
+uploads/
+
+# Downloads
+downloads/
+
+# Media
+media/
+
+# Backups
+backup/
+backups/
+
+# Reports
+reports/
+
+# Runtime
+runtime/
+
+# Metrics
+metrics/
+
+# Generated
+generated/
+
+# Node (Dashboard futuramente)
+node_modules/
+
+# Secrets
+*.pem
+*.key
+*.crt
+secrets/
+
+# Bytecode
+*.pyo
+*.pyd
+
+# Mac
+.AppleDouble
+.LSOverride
+
+# Linux
+*~
+
+# Windows
+ehthumbs.db
+
+# Coverage
+coverage.xml
+
+# Poetry
+poetry.lock
+
+# uv
+uv.lock
